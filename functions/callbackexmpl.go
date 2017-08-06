@@ -14,7 +14,7 @@ func filter(numbers []int, callback func(int) bool) []int {
 	return slice
 }
 
-func main() {
+func filterOut() {
 	slice := filter([]int{1, 2, 3, 4, 5, 6, 7, 8, 9}, func(n int) bool {
 		return n > 1
 	})
